@@ -10,5 +10,10 @@
         <module name="services" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="security" target="1.5" />
+      <module name="services" target="1.5" />
+      <module name="TotalVoteTracker" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
