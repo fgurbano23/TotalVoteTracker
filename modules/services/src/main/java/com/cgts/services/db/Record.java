@@ -28,7 +28,7 @@ public class Record implements Serializable {
 	 * 
 	 * Obtiene el valor en de un campo dentro de un record.
 	 * 
-	 * @param String fieldName Nombre del campo
+	 * @param 'String fieldName Nombre del campo
 	 * 
 	 * @return Valor del campo
 	 * 

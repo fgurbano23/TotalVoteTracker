@@ -17,9 +17,9 @@ public class MGFileTool {
 	 *	
 	 *  Funcion que guarda en una ruta especifica de los datos deseados.
 	 *  
-	 *  @param String filePath Ruta final del directorio.
+	 *  @param 'String filePath Ruta final del directorio.
 	 *  
-	 *  @param byte[] fileData Informacion deseada a guarda.
+	 *  @param 'byte[] fileData Informacion deseada a guarda.
 	 *  
 	 *  @throws Exception 
 	 *  
@@ -45,11 +45,11 @@ public class MGFileTool {
 	 *	
 	 *  Funcion que guarda en una ruta especifica de los datos deseados.
 	 *  
-	 *  @param String path Ruta del directorio.
+	 *  @param 'String path Ruta del directorio.
 	 *  
-	 *  @param String name Nombre del archivo.
+	 *  @param 'String name Nombre del archivo.
 	 *  
-	 *  @param byte[] fileData Informacion deseada a guarda.
+	 *  @param 'byte[] fileData Informacion deseada a guarda.
 	 *  
 	 *  @throws Exception 
 	 *  
@@ -74,7 +74,7 @@ public class MGFileTool {
 	 *	
 	 *  Funcion que lee una ruta especifica de los datos deseados.
 	 *  
-	 *  @param String filePath Ruta final del directorio.
+	 *  @param 'String filePath Ruta final del directorio.
 	 *  
 	 *  @throws Exception 
 	 *  
@@ -104,9 +104,9 @@ public class MGFileTool {
 	 *	
 	 *  Funcion que lee una ruta especifica de los datos deseados.
 	 *  
-	 *  @param String path Ruta del directorio.
+	 *  @param 'String path Ruta del directorio.
 	 *  
-	 *  @param String name Nombre del archivo.
+	 *  @param 'String name Nombre del archivo.
 	 *  
 	 *  @throws Exception 
 	 *  
@@ -121,11 +121,11 @@ public class MGFileTool {
 	 *	
 	 *  Funcion que lee una ruta especifica de los datos deseados.
 	 *  
-	 *  @param String path Ruta del directorio.
+	 *  @param 'String path Ruta del directorio.
 	 *  
-	 *  @param String name Nombre del archivo.
+	 *  @param 'String name Nombre del archivo.
 	 *  
-	 *  @param boolean delete Booleano que define si luego de la 
+	 *  @param 'boolean delete Booleano que define si luego de la
 	 *  lectura del archivo se borrara.
 	 *  
 	 *  @throws Exception 

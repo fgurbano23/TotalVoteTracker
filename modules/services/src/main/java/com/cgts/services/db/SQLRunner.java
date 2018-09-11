@@ -46,7 +46,7 @@ public class SQLRunner {
 	 * 
 	 * Constructor base de la clase.
 	 * 
-	 * @param Connection conn conexion a BD.
+	 * @param 'Connection conn conexion a BD.
 	 * 
 	 * 	 
 	 **/
@@ -68,7 +68,7 @@ public class SQLRunner {
 	 * 
 	 * Ejecuta instruccion INSERT,DELETE,UPDATE.
 	 * 
-	 * @param String sql
+	 * @param 'String sql
 	 * 
 	 * @return retorna el numero de registros afectados.
 	 * 
@@ -104,9 +104,9 @@ public class SQLRunner {
 	 * 
 	 * Ejecuta instrucciones sql con datos complejos como Objects y byte[].
 	 * 
-	 * @param List<AttributeSql> attr
+	 * @param 'List<AttributeSql> attr
 	 * 
-	 * @param String sql
+	 * @param 'String sql
 	 *            : este parametro debe contener ? donde si fijaria los datos
 	 *            complejos
 	 * 

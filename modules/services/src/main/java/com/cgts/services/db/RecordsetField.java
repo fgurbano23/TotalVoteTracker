@@ -16,11 +16,11 @@ public class RecordsetField  implements Serializable
 	 * 
 	 * Quick way to build an object of this class.
 	 * 
-	 * @param String name Field Name
+	 * @param 'String name Field Name
 	 * 
-	 * @param String typeName Native Type name
+	 * @param 'String typeName Native Type name
 	 * 
-	 * @param int type JDBC Data Type
+	 * @param 'int type JDBC Data Type
 	 * 
 	 * @author hisoft
 	 * 

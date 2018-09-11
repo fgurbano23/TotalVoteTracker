@@ -477,7 +477,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Wrapper method for getValue() - avoids casting the data type.
 	 * 
-	 * @param String colName
+	 * @param 'String colName
 	 *            Column name to retrieve its value from the current record
 	 *            
 	 * @return The column value in its native data type
@@ -496,7 +496,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Wrapper method for getValue() - avoids casting the data type.
 	 * 
-	 * @param String colName
+	 * @param 'String colName
 	 *            Column name to retrieve its value from the current record
 	 *            
 	 * @return The column value in its native data type
@@ -514,7 +514,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Wrapper method for getValue() - avoids casting the data type.
 	 * 
-	 * @param String colName
+	 * @param 'String colName
 	 *            Column name to retrieve its value from the current record
 	 *            
 	 * @return The column value in its native data type
@@ -531,7 +531,7 @@ public class Recordset implements Serializable {
 	/**
 	 * Wrapper method for getValue() - avoids casting the data type
 	 * 
-	 * @param String colName
+	 * @param 'String colName
 	 *            Column name to retrieve its value from the current record
 	 *            
 	 * @return The column value in its native data type
@@ -549,7 +549,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Tests if the give column value is null for the current record.
 	 * 
-	 * @param String colName
+	 * @param 'String colName
 	 *            Column name
 	 *            
 	 * @return TRUE if the value is null
@@ -571,7 +571,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Check if recordset contains field with a given name.
 	 * 
-	 * @param String name
+	 * @param 'String name
 	 *            Name of the field to check its existence
 	 *            
 	 * @return TRUE if field exists, FALSE if not
@@ -590,11 +590,11 @@ public class Recordset implements Serializable {
 	 * Tests if a given record number represents a valid record position in the
 	 * Recordset.
 	 * 
-	 * @param int recNum
+	 * @param 'int recNum
 	 *            Record number (between 0...N-1 where N is the number of
 	 *            records)
 	 * 
-	 * @throws RecordsetException
+	 * @throws 'RecordsetException
 	 *             If the test fails
 	 *
 	 * 
@@ -622,7 +622,7 @@ public class Recordset implements Serializable {
 	 * the Recordset. This overload reuses the checkRecordPosition(int recNum)
 	 * method.
 	 * 
-	 * @throws RecordsetException
+	 * @throws 'RecordsetException
 	 *             If the test fails
 	 *
 	 * 
@@ -635,7 +635,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Set the children recordset for the current record.
 	 * 
-	 * @param Recordset rs
+	 * @param 'Recordset rs
 	 *            Children recordset
 	 *            
 	 * @throws Throwable

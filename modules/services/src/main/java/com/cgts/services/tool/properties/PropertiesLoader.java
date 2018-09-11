@@ -56,7 +56,7 @@ public class PropertiesLoader {
 	 * Lee los properties asociados a la configuracion del SS disponibles en directorios especificos 
 	 * directorio haciendolos accesibles a traves de un unico objeto.
 	 * 
-	 * @param String path ruta al directorio donde estan contenidos los archivos .properties
+	 * @param 'String path ruta al directorio donde estan contenidos los archivos .properties
 	 * 
 	 * @throws FileSystemException 
 	 * 
@@ -105,7 +105,7 @@ public class PropertiesLoader {
 	 * 
 	 * Funcion que se encarga de procesar el archivo.
 	 * 
-	 * @param File file archivo *.properties
+	 * @param 'File file archivo *.properties
 	 *
 	 * 
 	 **/
@@ -128,7 +128,7 @@ public class PropertiesLoader {
 	 * Funcion que se encarga de cargar en 
 	 * Map<String, String> properties los datos que se le pasa en el archivo.
 	 * 
-	 * @param InputStream file archivo *.properties
+	 * @param 'InputStream file archivo *.properties
 	 *
 	 **/
 	public static void loadFile(InputStream file) throws IOException{
@@ -146,7 +146,7 @@ public class PropertiesLoader {
 	 * 
 	 * Obtiene el valor asociado al key suministrado.
 	 * 
-	 * @param String key clave del valor a consultar
+	 * @param 'String key clave del valor a consultar
 	 * 
 	 * @return valor asociado o null en caso de no existir
 	 * 
@@ -161,9 +161,9 @@ public class PropertiesLoader {
 	 * Obtiene los valores almacenados en los properties que representan
 	 * una estructura compuesta (array).
 	 * 
-	 * @param String key clave del valor a consultar.
+	 * @param 'String key clave del valor a consultar.
 	 * 
-	 * @param Boolean setProperties booleano encargado de definir como se va a unificar los datos.
+	 * @param 'Boolean setProperties booleano encargado de definir como se va a unificar los datos.
 	 * 
 	 * @return Map de los valores almacenados
 	 * 

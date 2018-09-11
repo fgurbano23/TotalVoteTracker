@@ -86,11 +86,11 @@ public class LoggerHandler {
 	 * 
 	 * Registra los mensajes a un log level Info.
 	 * 
-	 * @param ContextLog context Contexto que contiene el nombre con el que se logeara.
+	 * @param 'ContextLog context Contexto que contiene el nombre con el que se logeara.
 	 * 
-	 * @param String message Contenido del mensaje a registrar, con los placeholders indicados.
+	 * @param 'String message Contenido del mensaje a registrar, con los placeholders indicados.
 	 * 
-	 * @param Object values vars args
+	 * @param 'Object values vars args
 	 *
 	 * 
 	 **/
@@ -104,9 +104,9 @@ public class LoggerHandler {
 	 * 
 	 * Registra los mensajes a un log level Info.
 	 * 
-	 * @param String message Contenido del mensaje a registrar, con los placeholders indicados.
+	 * @param 'String message Contenido del mensaje a registrar, con los placeholders indicados.
 	 * 
-	 * @param Object values vars args
+	 * @param 'Object values vars args
 	 *
 	 * 
 	 **/
@@ -118,11 +118,11 @@ public class LoggerHandler {
 	 * 
 	 * Registra los mensajes a un log level Error.
 	 * 
-	 * @param ContextLog context Contexto que contiene el nombre con el que se logeara.
+	 * @param 'ContextLog context Contexto que contiene el nombre con el que se logeara.
 	 * 
-	 * @param String message Contenido del mensaje a registrar, con los placeholders indicados
+	 * @param 'String message Contenido del mensaje a registrar, con los placeholders indicados
 	 * 
-	 * @param Object values vars args
+	 * @param 'Object values vars args
 	 *
 	 * 
 	 **/
@@ -136,9 +136,9 @@ public class LoggerHandler {
 	 * 
 	 * Registra los mensajes a un log level Error.
 	 * 
-	 * @param String message Contenido del mensaje a registrar, con los placeholders indicados
+	 * @param 'String message Contenido del mensaje a registrar, con los placeholders indicados
 	 * 
-	 * @param Object values vars args
+	 * @param 'Object values vars args
 	 *
 	 * 
 	 **/
@@ -150,11 +150,11 @@ public class LoggerHandler {
 	 * 
 	 * Registra los mensajes a un log level Debug.
 	 * 
-	 * @param ContextLog context Contexto que contiene el nombre con el que se logeara.
+	 * @param 'ContextLog context Contexto que contiene el nombre con el que se logeara.
 	 * 
-	 * @param String message Contenido del mensaje a registrar, con los placeholders indicados.
+	 * @param 'String message Contenido del mensaje a registrar, con los placeholders indicados.
 	 * 
-	 * @param Object values vars args.
+	 * @param 'Object values vars args.
 	 * 
 	 **/
 	public void doDebug(ContextLog context,String message,Object... values){
@@ -171,11 +171,11 @@ public class LoggerHandler {
 	 * 
 	 * Registra los mensajes a un log level Warning.
 	 * 
-	 * @param ContextLog context Contexto que contiene el nombre con el que se logeara.
+	 * @param 'ContextLog context Contexto que contiene el nombre con el que se logeara.
 	 * 
-	 * @param String message Contenido del mensaje a registrar, con los placeholders indicados.
+	 * @param 'String message Contenido del mensaje a registrar, con los placeholders indicados.
 	 * 
-	 * @param Object values vars args.
+	 * @param 'Object values vars args.
 	 * 
 	 * 
 	 **/
@@ -189,9 +189,9 @@ public class LoggerHandler {
 	 * 
 	 * Registra los mensajes a un log level Warning.
 	 * 
-	 * @param String message Contenido del mensaje a registrar, con los placeholders indicados.
+	 * @param 'String message Contenido del mensaje a registrar, con los placeholders indicados.
 	 * 
-	 * @param Object values vars args.
+	 * @param 'Object values vars args.
 	 * 
 	 **/
 	public void doWarn(String message,Object... values  ){

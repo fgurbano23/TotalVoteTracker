@@ -32,9 +32,9 @@ public class Utils {
 	 * 
 	 * Convierte la fecha al patron indicado en format.
 	 * 
-	 * @param Date d 
+	 * @param 'Date d
 	 * 
-	 * @param String format patron de la fecha, ejemplo yyyy-MM-dd HH:mm:ss
+	 * @param 'String format patron de la fecha, ejemplo yyyy-MM-dd HH:mm:ss
 	 * 
 	 * @return String representa la fecha en formato dado
 	 * 
@@ -68,9 +68,9 @@ public class Utils {
 	 * 
 	 * CompareVersion.
 	 * 
-	 * @param String versionSS
+	 * @param 'String versionSS
 	 * 
-	 * @param String versionHiCC
+	 * @param 'String versionHiCC
 	 * 
 	 * Retorna la comparacion de las version en formato X[.<Letter>]
 	 * -1  si String versionSS < String versionHiCC
