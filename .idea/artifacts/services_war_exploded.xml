@@ -68,7 +68,6 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
           <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:2.6.0" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
           <element id="library" level="project" name="Maven: com.oracle:ojdbc8:12.2.0.1" />
           <element id="library" level="project" name="Maven: io.agroal:agroal-pool:0.4" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" />

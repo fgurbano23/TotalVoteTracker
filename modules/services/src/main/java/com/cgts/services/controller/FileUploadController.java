@@ -24,6 +24,7 @@ public class FileUploadController {
     private DataSource dataSource;
 
 
+
     @GetMapping(value="/files/{account}")
     //@ResponseBody()
     public byte[] serveFile(@PathVariable double account) throws java.sql.SQLException {
