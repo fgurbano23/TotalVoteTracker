@@ -1,6 +1,6 @@
-package com.development.controller;
+package com.cgts.services.controller;
 
-import com.development.model.service.UserStatusService;
+import com.cgts.services.model.service.UserStatusService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

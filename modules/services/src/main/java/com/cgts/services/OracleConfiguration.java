@@ -1,4 +1,4 @@
-package com.development;
+package com.cgts.services;
 
 import oracle.jdbc.pool.OracleDataSource;
 import org.springframework.boot.context.properties.ConfigurationProperties;

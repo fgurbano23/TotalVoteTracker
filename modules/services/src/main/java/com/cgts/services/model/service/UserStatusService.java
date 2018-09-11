@@ -1,4 +1,4 @@
-package com.development.model.service;
+package com.cgts.services.model.service;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

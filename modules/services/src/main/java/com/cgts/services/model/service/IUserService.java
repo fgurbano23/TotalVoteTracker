@@ -1,6 +1,6 @@
-package com.development.model.service;
+package com.cgts.services.model.service;
 
-import com.development.model.entity.User;
+import com.cgts.services.model.entity.User;
 
 import java.util.List;
 

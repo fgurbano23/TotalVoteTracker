@@ -1,4 +1,4 @@
-package com.development.model.entity;
+package com.cgts.services.model.entity;
 
 import javax.persistence.*;
 

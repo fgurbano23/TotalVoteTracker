@@ -1,7 +1,7 @@
-package com.development.model.service;
+package com.cgts.services.model.service;
 
-import com.development.model.dao.IUserDAO;
-import com.development.model.entity.User;
+import com.cgts.services.model.dao.IUserDAO;
+import com.cgts.services.model.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

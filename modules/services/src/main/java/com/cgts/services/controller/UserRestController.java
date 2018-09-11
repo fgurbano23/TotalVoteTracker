@@ -1,7 +1,7 @@
-package com.development.controller;
+package com.cgts.services.controller;
 
-import com.development.model.entity.User;
-import com.development.model.service.IUserService;
+import com.cgts.services.model.entity.User;
+import com.cgts.services.model.service.IUserService;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
