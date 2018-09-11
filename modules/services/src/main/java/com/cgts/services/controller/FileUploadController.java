@@ -42,7 +42,6 @@ public class FileUploadController {
                                    RedirectAttributes redirectAttributes) {
         User user = userService.getUser((double) 234567);
 
-
         try{
             byte[] bytes;
             Blob blob = dataSource.getConnection().createBlob();

@@ -8,24 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90a8a52e-6f06-4723-a2d9-a4d9c1392fa7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/security/security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/security/security.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/OracleConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/OracleConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/controller/UserAccountRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/UserAccountRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/UserRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/controller/UserStatusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/UserStatusController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/dao/IUserAccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/dao/IUserAccountDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/dao/IUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/dao/IUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/entity/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/entity/IUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/entity/IUserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/entity/IUserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/entity/UserAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/entity/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/service/IUserAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/service/IUserAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/service/UserAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/service/UserAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/development/model/service/UserStatusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/model/service/UserStatusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/FileUploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/services/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -113,14 +96,16 @@
         <counts>
           <entry key="dummy" value="7" />
           <entry key="java" value="352" />
-          <entry key="txt" value="140" />
+          <entry key="properties" value="14" />
+          <entry key="txt" value="245" />
           <entry key="xml" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="352" />
-          <entry key="PLAIN_TEXT" value="147" />
+          <entry key="PLAIN_TEXT" value="252" />
+          <entry key="Properties" value="14" />
           <entry key="XML" value="79" />
         </counts>
       </usages-collector>
@@ -149,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/services/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -158,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/OracleConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -173,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/FileUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="165">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,7 +179,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="das://92db53bf-8e4b-49b6-9ea4-9a1ff11a7cc5/schema/TVT/table/USR_USER">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -218,8 +203,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/UserAccountRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+            <state relative-caret-position="855">
+              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -274,8 +259,8 @@
         <option value="$PROJECT_DIR$/modules/services/pom.xml" />
         <option value="$PROJECT_DIR$/modules/services/src/main/java/com/development/controller/FileUploadController.java" />
         <option value="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/controller/FileUploadController.java" />
-        <option value="$PROJECT_DIR$/modules/services/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/modules/services/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -393,20 +378,7 @@
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TotalVoteTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TotalVoteTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -423,9 +395,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536670494710" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documentos/demoSeguridad" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536673825817" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documentos/tvtDemo-master-2a3e3e4133a6da7704da9facf587b07fe490adc7" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../App/node-v8.11.4-linux-x64/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -565,7 +537,7 @@
       <updated>1536590431163</updated>
       <workItem from="1536590432738" duration="9951000" />
       <workItem from="1536604511722" duration="5840000" />
-      <workItem from="1536667774203" duration="2126000" />
+      <workItem from="1536667774203" duration="4514000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1536590623953</created>
@@ -581,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536607420658</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajustada la estructura de los packages, manejo de imagenes enviando y recibiendola como Multipart">
+      <created>1536670563494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536670563496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17917000" />
+    <option name="totallyTimeSpent" value="20305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,7 +590,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.42331934" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.42331934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -624,14 +603,14 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32983193" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32983193" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Database Console" order="15" visible="true" weight="0.22689076" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.22689076" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32977587" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.32977587" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.32977587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -681,7 +660,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="CRUD de usr_USER, usr_ACCOUNT, manejo de imagenes (BASE64)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD de usr_USER, usr_ACCOUNT, manejo de imagenes (BASE64)" />
+    <MESSAGE value="Ajustada la estructura de los packages, manejo de imagenes enviando y recibiendola como Multipart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustada la estructura de los packages, manejo de imagenes enviando y recibiendola como Multipart" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -852,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://92db53bf-8e4b-49b6-9ea4-9a1ff11a7cc5/schema/TVT/table/USR_ACCOUNT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/UserRestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -871,18 +844,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/UserAccountRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        <state relative-caret-position="855">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/OracleConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -893,14 +859,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/services/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/OracleConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        <state relative-caret-position="195">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="das://92db53bf-8e4b-49b6-9ea4-9a1ff11a7cc5/schema/TVT/table/USR_USER">
+    <entry file="das://92db53bf-8e4b-49b6-9ea4-9a1ff11a7cc5/schema/TVT/table/USR_ACCOUNT">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -909,11 +875,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/services/src/main/java/com/cgts/services/controller/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="165">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/services/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://92db53bf-8e4b-49b6-9ea4-9a1ff11a7cc5/schema/TVT/table/USR_USER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
