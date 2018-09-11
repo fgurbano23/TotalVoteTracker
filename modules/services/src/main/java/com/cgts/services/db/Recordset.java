@@ -22,7 +22,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Feed the recordset metadata (column structure).
 	 * 
-	 * @param HashMap<String, RecordsetField> fields
+	 * @param 'HashMap<String, RecordsetField> fields
 	 *            HashMap containing the recordset field objects
 	 *
 	 * 
@@ -35,7 +35,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Feed the recordset data.
 	 * 
-	 * @param ArrayList<Record> data
+	 * @param 'ArrayList<Record> data
 	 *            ArrayList containing record objects
 	 *
 	 * 
@@ -100,11 +100,11 @@ public class Recordset implements Serializable {
 	 * Append a field to the recordset structure.<br>
 	 * It is used when creating a Recordset from a JDBC query.
 	 * 
-	 * @param String fieldName
+	 * @param 'String fieldName
 	 *            Field Name
-	 * @param String nativeSqlType
+	 * @param 'String nativeSqlType
 	 *            SQL native data type name
-	 * @param int type
+	 * @param 'int type
 	 *            JDBC data type (java.sql.Types)
 	 *            
 	 * 
@@ -119,9 +119,9 @@ public class Recordset implements Serializable {
 	 * Append a field to the recordset structure.<br>
 	 * It is used when manufacturing a Recordset from code.
 	 * 
-	 * @param String fieldName
+	 * @param 'String fieldName
 	 *            Field Name
-	 * @param int type
+	 * @param 'int type
 	 *            JDBC data type (java.sql.Types) - only INTEGER, LONG, VARCHAR,
 	 *            DATE, TIMESTAMP or DOUBLE are supported
 	 *            
@@ -196,7 +196,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Set record position inside recordset
 	 * 
-	 * @param int recNum
+	 * @param 'int recNum
 	 *            Record Number (0...getRecordCount()-1)
 	 *            
 	 * @throws Throwable
@@ -213,10 +213,10 @@ public class Recordset implements Serializable {
 	 * 
 	 * Set field value for current record (determined by getRecordNumber()).
 	 * 
-	 * @param String fieldName
+	 * @param 'String fieldName
 	 *            Field Name
 	 *            
-	 * @param Object value
+	 * @param 'Object value
 	 *            Field Value (Date, String, int, double, null)
 	 * 
 	 * @throws Throwable
@@ -272,7 +272,7 @@ public class Recordset implements Serializable {
 	 *
 	 * Return field value given a field name.
 	 *
-	 * @param String fieldName
+	 * @param 'String fieldName
 	 *            Field Name. May be reserved field names: _rowIndex (0...N-1)
 	 *            or _rowNumber (1...N)
 	 *
@@ -310,7 +310,7 @@ public class Recordset implements Serializable {
 	 * objects involved. The resultset must be positioned before the first
 	 * record.
 	 *
-	 * @param java.sql.ResultSet rs
+	 * @param 'java.sql.ResultSet rs
 	 *            Resultset
 	 *
 	 * @throws Throwable
@@ -348,7 +348,7 @@ public class Recordset implements Serializable {
 	 * caller of this method to close the resultset and other jdbc objects
 	 * involved.
 	 * 
-	 * @param ResultSet rs
+	 * @param 'ResultSet rs
 	 *            ResultSet positiones before the first record
 	 *            
 	 * @throws Throwable
@@ -413,7 +413,7 @@ public class Recordset implements Serializable {
 	/**
 	 * Delete record (from memory).
 	 * 
-	 * @param int recNum
+	 * @param 'int recNum
 	 *            Record Number (0..N-1)
 	 *            
 	 * 
@@ -428,7 +428,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Return a Recordset field object describing its properties.
 	 * 
-	 * @param String fieldName
+	 * @param 'String fieldName
 	 *            Field name to locate the field object
 	 *            
 	 * @return Reference to Recordset field
@@ -449,7 +449,7 @@ public class Recordset implements Serializable {
 	 * 
 	 * Wrapper method for getValue() - avoids casting the data type.
 	 * 
-	 * @param String colName
+	 * @param 'String colName
 	 *            Column name to retrieve its value from the current record
 	 *            
 	 * @return The column value in its native data type
