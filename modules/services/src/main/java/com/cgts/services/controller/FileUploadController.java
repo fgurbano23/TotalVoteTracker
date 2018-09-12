@@ -1,6 +1,7 @@
 package com.cgts.services.controller;
 
 import com.cgts.services.model.entity.User;
+import com.cgts.services.model.service.ImageServicePrueba;
 import com.cgts.services.model.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +23,11 @@ public class FileUploadController {
 
     @Autowired
     private DataSource dataSource;
+
+    @Autowired
+    ImageServicePrueba im;
+
+
 
 
 
@@ -55,6 +61,13 @@ public class FileUploadController {
         } catch (java.io.IOException e) {System.out.println("IO");}
         catch (java.sql.SQLException e) {System.out.println("SQL");}
 
+        return "redirect:/";
+    }
+
+
+    @PostMapping("/file/Prueba")
+    public String fileUploadTest(@RequestParam("photo") MultipartFile file) throws Throwable{
+        im.saveImage(file);
         return "redirect:/";
     }
 

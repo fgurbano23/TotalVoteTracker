@@ -60,9 +60,9 @@ public class Record implements Serializable {
 	 * 
 	 * Actualiza el valor del campo. En caso de no existir se guarda.
 	 * 
-	 * @param String fieldName Nombre del campo
+	 * @param 'String fieldName Nombre del campo
 	 * 
-	 * @param Object value Valor del campo
+	 * @param 'Object value Valor del campo
 	 * 
 	 * @throws Exception
 	 * 
@@ -92,7 +92,7 @@ public class Record implements Serializable {
 	 * 
 	 * Asigna el valor de un registro como hijo al recorset.
 	 * 
-	 * @param Recordset rs
+	 * @param 'Recordset rs
 	 *
 	 *
 	 **/

@@ -72,24 +72,47 @@ public class UserStatusService {
     }
 
     public Object getPermm(Integer userId) {
-        String sql= "SELECT SM.SYS_MOD_NAME, listagg(USP.USR_PRIVILEGE_ID,',' ) within group (order by usp.USR_PRIV_NAME) AS PRIVILEGES " +
-                "FROM USR_ACCOUNT UA " +
-                "JOIN USR_USER UU " +
-                "ON UA.ACCT_USR_ID = UU.USR_ID " +
-                "JOIN USR_PROFILE UP " +
-                "ON UP.USR_PROFILE_ID = UU.USR_USER_PROFILE_ID " +
-                "JOIN USR_SYS_MODULE USM " +
-                "ON UP.USR_PROFILE_ID = USM.SYS_USR_PROFILE_ID " +
-                "JOIN SYS_MODULE SM " +
-                "ON USM.SYS_MODULE_ID = SM.SYS_MODULE_ID " +
-                "JOIN USER_PRIVILEGE USP " +
-                "ON USM.USR_PRIVILEGE_ID = USP.USR_PRIVILEGE_ID " +
-                "WHERE UA.ACCT_USR_ID= ? " +
-                "GROUP BY SM.SYS_MOD_NAME";
-        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
-        List<Map<String, Object>> list = jdbcTemplate.queryForList(sql,userId);
-        Gson gson = new Gson();
-        String json = gson.toJson(list, new TypeToken<List<Map<String, Object>>>() {}.getType());
-        return json;
+//        JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
+//        List<Map<String, Object>> list = jdbcTemplate.queryForList(sql,userId);
+        SQLRunner db = null;
+        try{
+
+            db = new SQLRunner(dataSource.getConnection());
+            //   String sql = PropertiesLoader.getProperty("userPrivileges");
+            String sql= "SELECT SM.SYS_MOD_NAME, listagg(USP.USR_PRIVILEGE_ID,',' ) within group (order by usp.USR_PRIV_NAME) AS PRIVILEGES " +
+                    "FROM USR_ACCOUNT UA " +
+                    "JOIN USR_USER UU " +
+                    "ON UA.ACCT_USR_ID = UU.USR_ID " +
+                    "JOIN USR_PROFILE UP " +
+                    "ON UP.USR_PROFILE_ID = UU.USR_USER_PROFILE_ID " +
+                    "JOIN USR_SYS_MODULE USM " +
+                    "ON UP.USR_PROFILE_ID = USM.SYS_USR_PROFILE_ID " +
+                    "JOIN SYS_MODULE SM " +
+                    "ON USM.SYS_MODULE_ID = SM.SYS_MODULE_ID " +
+                    "JOIN USER_PRIVILEGE USP " +
+                    "ON USM.USR_PRIVILEGE_ID = USP.USR_PRIVILEGE_ID " +
+                    "WHERE UA.ACCT_USR_ID= prm:USER_ID " +
+                    "GROUP BY SM.SYS_MOD_NAME";
+
+            List<AttributeSql> attrs = new ArrayList<AttributeSql>();
+            AttributeSql sqlTest = new AttributeSql("USER_ID",userId,0);
+            attrs.add(sqlTest);
+            Recordset rs = db.runSQL(db.prepareSQL(attrs, sql));
+            Gson gson = new Gson();
+            String json = gson.toJson(rs.getData(), new TypeToken<ArrayList<Record>>() {}.getType());
+            return json;
+
+        } catch (Throwable e) {
+            e.printStackTrace();
+            return "[]";
+        }finally{
+            try{
+                if(db!=null){
+                    db.closeConnection();
+                }
+            } catch (Throwable e) {
+
+            }
+        }
     }
 }
